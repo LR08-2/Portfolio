@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>HTMLGames</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="HTMLGames.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="CustomElement.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="HTMLGameManager.js"></script>
+
+<body>
+    <my-header></my-header>
+
+    <div id='bodyContent'>
+
+        <div id="gameNav">
+            <button onClick="loadNewGame(`Games/Pong.js`)"> G1 </button>
+            <button onClick="loadNewGame(`Games/Pacman.js`)"> G2 </button>
+            <button onClick="loadNewGame(`Games/SpaceInvaders.js`)"> G3 </button>
+
+        </div>
+
+        <div id="gamePanel"></div>
+
+    </div>
+
+    <my-footer></my-footer>
+
+</body>
+
+</html>
