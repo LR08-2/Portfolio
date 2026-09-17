@@ -1,0 +1,40 @@
+#bodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#imageContainer {
+    background-color: grey;
+    position: relative;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.slide img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#prevImg, #nextImg {
+    cursor: pointer;
+    position: absolute;
+    top:35%;
+    width: 75px;
+    height: 65px;
+    font-size: 35px;
+    border: 2px black solid;
+    border-radius: 50%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+#prevImg {
+    left: 20px;
+}
+
+#nextImg {
+    right: 20px;
+}
