@@ -6,7 +6,7 @@ showSlide(0)
 
 function showSlide( newIndex ) {
 slideIndex = newIndex;
-slides.forEach(element => {
+Array.from(slides).forEach(element => {
     element.style.display = "none"
 });
 slides[slideIndex].style.display = "block"
