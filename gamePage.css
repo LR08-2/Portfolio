@@ -9,7 +9,15 @@
     background-color: grey;
     position: relative;
     padding: 10px;
+    min-width: 500px;
     max-width: 500px;
+    min-height: 350px;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.slide {
+    position: sticky;
 }
 
 .slide img {
